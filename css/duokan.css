@@ -1,0 +1,294 @@
+body{
+    background: rgb(247,246,244);
+}
+/*  上部登录注册导航条  */
+#top{
+    height: 40px;
+    border-bottom: 1px solid gainsboro;
+}
+#nav{
+    width: 1190px;
+    height: 40px;
+    margin: auto;
+}
+#nav-right{
+    height: 40px;
+    float: right;
+    line-height: 40px;
+}
+#top a{
+    color: black;
+    text-decoration: none;
+}
+#top a:hover{
+    color:orange;
+}
+#nav-right li{
+    list-style: none;
+    float: left;
+    padding-right: 5px;
+    font-weight: bold;
+}
+#nav-right .part{
+    color: gainsboro;
+}
+
+
+
+/* logo和搜索框 */
+#LS{
+    height: 50px;
+    margin-top: 30px;
+}
+#logo-search{
+    width: 1190px;
+    height: 50px;
+    margin: auto;
+}
+#logo-search #logo{
+    float: left;
+    width: 170px;
+}
+#logo-search #search{
+    width:300px;
+    float: right;
+}
+#logo-search #search form{
+    width:300px;
+    margin-bottom: 0px;
+}
+#search input{
+    width: 300px;
+    height:40px;
+    border: 2px solid rgb(250,122,32);
+}
+#logo-search #search form span{
+    color: orange;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+
+/*  中间部分  */
+#center{
+    width: 1190px;
+    margin: auto;
+}
+/*  中间导航  */
+#center-nav{
+    margin-top: 40px;
+    width: 1190px;
+    height: 45px;
+    background: rgb(250,122,32);
+}
+#center-nav ul{
+    width: 680px;
+    height: 45px;
+    margin: auto;
+}
+#center-nav li{
+    list-style: none;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+}
+#center-nav li:first-child{
+    background-color: rgb(241,99,0);
+}
+#center-nav li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* 中间左侧列表 */
+#ul-carousel{
+    width: 1190px;
+    height: 580px;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(250,122,32);
+}
+#center-left{
+    width: 240px;
+    height: 570px;
+    background: black;
+    float: left;
+}
+#center-left ul{
+    height: 570px;
+    width: 240px;
+    position: relative;
+    padding-left: 0px;
+}
+#center-left li{
+    list-style: none;
+    width: 240px;
+    height: 55px;
+    line-height: 55px;
+    cursor: pointer;
+}
+#center-left li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+#center-left li span{
+    color: white;
+    float: right;
+    line-height: 55px;
+    padding-right: 10px;
+}
+
+
+/* 轮播图 */
+#myCarousel{
+    float: right;
+}
+#myCarousel img{
+    width: 950px;
+}
+
+/*  中间的三本书  */
+#center-books{
+    width: 950px;
+    height: 240px;
+    float: left;
+}
+#center-books #recommend{
+    float: left;
+    width: 950px;
+    height: 30px;
+    color: rgb(250,122,32);
+    border-bottom: 1px solid gainsboro;
+}
+#center-books #recommend h4{
+    margin: 0px;
+    width: 950px;
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+#center-books .media-list{
+    float: left;
+    width: 950px;
+    height: 160px;
+    padding-top: 10px;
+}
+#center-books .media-list li{
+    margin-top: 0px;
+    height: 160px;
+    float: left;
+    margin-left: 6px;
+    border-right: 1px solid gainsboro;
+}
+#center-books .media-list li:last-child{
+    border-right: none;
+}
+#center-books .media-list li .media-left{
+    padding: 0px;
+}
+#center-books #btn3{
+    margin-top: 50px;
+}
+#center-books #btn1{
+    margin-top: 40px;
+}
+#center-books #btn2{
+    margin-top: 20px;
+}
+#center-books .media-body{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#center-books .media-body a{
+    color: black;
+    text-decoration: none;
+}
+#center-books .media-body a:hover{
+    color: rgb(250,122,32);
+}
+
+/* 活动快讯 */
+#action{
+    width: 940px;
+    height: 30px;
+    border: 1px solid rgb(241,99,0);
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+    background-color: rgb(253,245,228);
+}
+#action span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    margin-left: 20px;
+}
+#action span:first-child{
+    font-size: 17px;
+    color: rgb(250,122,32);
+}
+
+
+
+/*  下部  */
+#bottom{
+    width: 1190px;
+    margin: auto;
+}
+#bottom-list{
+    width: 240px;
+    height: 395px;
+    float: left;
+}
+#bottom-list ul{
+    width: 240px;
+    height: 395px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#bottom-list li{
+    list-style: none;
+    margin-top: 5px;
+}
+#bottom-list li:first-child{
+    margin-top: 10px;
+}
+#bottom-list li img{
+    width: 240px;
+    height: 130px;
+}
+#bottom-books{
+    margin-top: 10px;
+    height: 345px;
+    width: 950px;
+    float: left;
+}
+#bottom-books ul{
+    height: 345px;
+    width: 950px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#bottom-books ul li{
+    float: left;
+    margin-top: 0px;
+    margin-left: 6px;
+    border-right: 1px solid gainsboro;
+}
+#bottom-books ul li .media-body{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#bottom-books ul li .btns{
+    margin-top: 30px;
+}
+

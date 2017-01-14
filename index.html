@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多看阅读</title>
+    <link rel="icon" href="image/icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/duokan.css">
+
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/duokan.js"></script>
+</head>
+<body>
+
+    <!-- 头部登录注册 -->
+    <div id="top">
+
+        <div id="nav">
+            <div id="nav-right">
+                <ul>
+                    <li id="login">
+                        <a href="login.html">登录</a>
+                        <span class="part">/</span>
+                        <a href="register.html">注册</a>
+                    </li>
+                    <li class="part">|</li>
+                    <li id="shopping">
+                        <a href="shoppingCar.html">购物车</a>
+                    </li>
+                    <li class="part">|</li>
+                    <li  id="owner">
+                        <a href="owner.html">个人中心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- logo和搜索框 -->
+    <div id="LS">
+        <div id="logo-search">
+            <div id="logo">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <div id="search">
+                <form action="#" class="form-group has-feedback">
+                    <input class="form-control" type="text" placeholder="请搜索书名/作者.....">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 中间部分 -->
+    <div id="center">
+
+        <!-- 中间的导航条 -->
+        <div id="center-nav">
+            <ul>
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="#">榜单</a></li>
+                <li><a href="#">书评</a></li>
+                <li><a href="#">精品.免费</a></li>
+                <li><a href="#">分类</a></li>
+                <li><a href="#">客户端</a></li>
+                <li><a href="#">论坛</a></li>
+            </ul>
+        </div>
+
+
+        <!-- 列表-轮播图 -->
+        <div id="ul-carousel">
+
+            <!-- 左侧列表 -->
+            <div id="center-left">
+                <ul>
+                    <li>
+                        <a href="#">小说 成功励志</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">文学 原创文学</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">人文科学 自然科学</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">生活 杂志</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">动漫绘本</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">政治 军事</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">历史 少儿</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">进口原版</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">艺术</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                    <li>
+                        <a href="#">传记 其他</a>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 轮播图 -->
+            <div id="myCarousel" data-ride="carousel" class="carousel slide hover" style="width: 950px">
+                <ol id="carouselOl" class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-target="#myCarousel"></li>
+                    <li data-slide-to="3" data-target="#myCarousel"></li>
+                    <li data-slide-to="4" data-target="#myCarousel"></li>
+                    <li data-slide-to="5" data-target="#myCarousel"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#"><img src="image/scr1.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/scr2.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/scr3.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/scr4.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/scr5.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/scr6.jpg"></a>
+                    </div>
+                </div>
+
+                <a href="#myCarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#myCarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            <div id="center-books">
+
+                <div id="recommend">
+                    <h4>重磅推荐</h4>
+                </div>
+
+                <ul class="media-list">
+
+                    <li class="media" style="width: 310px">
+                        <div class="media-left">
+                            <img src="./image/1.jpg">
+                            <p>￥49.9 <del>￥418.0</del></p>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="media-heading">
+                                <a href="#">布朗神父探案全集(译言古登堡计划 全五册)</a>
+                            </h5>
+                            <p>
+                                商业人士必读系列，开创“胜出竞争”的营销之道。
+                            </p>
+                            <div id="btn1">
+                                <button class="btn btn-info">立即购买</button>
+                                <button class="btn btn-info">加入购物车</button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="media" style="width: 310px">
+                        <div class="media-left">
+                            <img src="./image/2.jpg">
+                            <p>￥49.9 <del>￥73.00</del></p>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="media-heading">
+                                <a href="#">大谋小计五十年：诸葛亮传(全五册)</a>
+                            </h5>
+                            <p>
+                                谋略、生活、爱情……还原一个有血有肉的诸葛亮，马亲王力荐
+                            </p>
+                            <div id="btn2">
+                                <button class="btn btn-info">立即购买</button>
+                                <button class="btn btn-info">加入购物车</button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="media" style="width: 310px">
+                        <div class="media-left">
+                            <img src="./image/3.jpg">
+                            <p>￥6.99 <del>￥68.00</del></p>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="media-heading">
+                                <a href="#">定位系列经典收藏版(共19册)</a>
+                            </h5>
+                            <p>
+                                丘吉尔、希区柯克、克里斯蒂最推崇的推理小说。
+                            </p>
+                            <div id="btn3">
+                                <button class="btn btn-info">立即购买</button>
+                                <button class="btn btn-info">加入购物车</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="action">
+                    <span>活动快讯</span>
+                    <span>|</span>
+                    <span>超级畅销的好书特价啦，戳此看看～</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 下部的书列表 -->
+    <div id="bottom">
+        <div id="bottom-list">
+            <ul>
+                <li><img src="./image/content1.jpg"></li>
+                <li><img src="./image/content2.jpg"></li>
+                <li><img src="./image/content3.jpg"></li>
+            </ul>
+        </div>
+
+        <div id="bottom-books">
+            <ul>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con1.jpg">
+                        <p>￥1.99 <del>￥6.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">经典超译本：理想国</a>
+                        </h5>
+                        <p>
+                            内容广博，涉及哲学、政治伦理、教育、心理、社会、家庭、宗教、技术……
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con2.jpg">
+                        <p>￥3.99 <del>￥12.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">临界·爵迹 1</a>
+                        </h5>
+                        <p>
+                            《幻城》问世十周年之际，郭敬明第二部奇幻长篇《临界.爵迹》诞生！
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con3.jpg">
+                        <p>￥19.99<del>￥73.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">中层领导力（全三册)</a>
+                        </h5>
+                        <p>
+                            丘吉尔、希区柯克、克里斯蒂最推崇的推理小说。
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con4.jpg">
+                        <p>￥4.99<del>￥18.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">黑洞战争</a>
+                        </h5>
+                        <p>
+                            本书揭开了斯蒂芬·霍金与伦纳德·萨斯坎德、赫拉德·特霍夫特关于黑洞本性论战的深层内幕
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con5.jpg">
+                        <p>￥9.99<del>￥40.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">不平等经济学（第七版)</a>
+                        </h5>
+                        <p>
+                            研究财富与收入不平等重磅之作！看经济发展是如何产生出社会不平等的？
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="media" style="width: 310px">
+                    <div class="media-left">
+                        <img src="./image/con6.jpg">
+                        <p>￥3.99 <del>￥12.00</del></p>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">
+                            <a href="#">实战高手教你做短线</a>
+                        </h5>
+                        <p>
+                            从短线操作这一基本概念入手 分享实战高手短线操作的特点、要求、原则、策略及技巧
+                        </p>
+                        <div class="btns">
+                            <button class="btn btn-info">立即购买</button>
+                            <button class="btn btn-info">加入购物车</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="btn-toolbar">
+            <button class="btn btn-default disabled">&lt;&nbsp;上一页</button>
+            <button class="btn btn-default active">1</button>
+            <button class="btn btn-default">2</button>
+            <button class="btn btn-default">3</button>
+            <button class="btn btn-default">4</button>
+            <button class="btn btn-default">5</button>
+            <button class="btn btn-default">6</button>
+            <button class="btn btn-default">7</button>
+            <span>.....</span>
+        </div>
+    </div>
+
+</body>
+</html>
